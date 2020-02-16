@@ -1,3 +1,80 @@
+@font-face {
+  src: url(fonts/Vollkorn-Black.ttf);
+}
+body {
+  margin: 0;
+  background-color: #327893ff;
+  font-family: Vollkorn;
+}
+/* Sticky Navbar*/
+#navbar {
+ overflow: hidden;
+ background-color: #bc145dff;
+ font-size: 20px;
+ padding: 10px;
+}
+#navbar a {
+  margin-left: 50px;
+ float: right;
+ display: block;
+ color: #32091b;
+ text-align: center;
+ padding: 14px;
+ text-decoration: none;
+}
+#navbar a:hover{
+  color: #fbc915;
+}
+#navbar a:nth-child(-n+4) {
+ float: left;
+ display: block;
+ color: #32091b;
+ text-align: center;
+ padding: 14px;
+ text-decoration: none;
+}
+#navbar a:nth-child(-n+4):hover{
+  color: #fbc915;
+}
+#navbar a img{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 47.55%;
+  top: 0
+}
+.content {
+ padding: 16px;
+}
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+.sticky + .content {
+ padding-top: 60px;
+}
+/*Title*/
 h1 {
-  color: red;
+  margin-top: 210px;
+  margin-left: 30px;
+  font-family: Vollkorn;
+  color: #FBC915;
+  font-size: 100px;
+}
+.imageflower {
+  margin-right: 30px;
+  margin-top: -570px;
+  float: right;
+}
+.imageflower img{
+  max-width: 275px;
+}
+.imagephotographer {
+  margin-right: 330px;
+  margin-top: -349px;
+  float: right;
+}
+.imagephotographer img{
+  max-width: 275px;
 }
