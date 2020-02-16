@@ -3,8 +3,11 @@
 }
 body {
   margin: 0;
-  background-color: #327893ff;
+  background-color: #C8E8F5;
   font-family: Vollkorn;
+}
+.hpcolour{
+  background-color: #327893ff;
 }
 /* Sticky Navbar*/
 #navbar {
@@ -72,7 +75,7 @@ h1 {
 }
 .imagephotographer {
   margin-right: 330px;
-  margin-top: -349px;
+  margin-top: -390px;
   float: right;
 }
 .imagephotographer img{
