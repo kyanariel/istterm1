@@ -81,3 +81,20 @@ h1 {
 .imagephotographer img{
   max-width: 275px;
 }
+.grid{
+  width: 90%;
+  margin-left: 75px;
+  margin-top: 75px;
+  display: grid;
+  grid-gap: 75px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.items{
+  background: #327893;
+  color: #32091B;
+  max-height: 355px;
+  max-width: 355px;
+}
+.items > img{
+  max-height: 355px;
+}
