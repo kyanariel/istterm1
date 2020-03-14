@@ -1,10 +1,17 @@
-@font-face {
-  src: url(fonts/Vollkorn-Black.ttf);
+tilted@font-face {
+    src: url(../fonts/Lato-Regular.ttf);
+    src: url(../fonts/Vollkorn.ttf);
 }
 body {
   margin: 0;
   background-color: #C8E8F5;
-  font-family: Vollkorn;
+}
+title {
+  display: flex;
+}
+.small {
+  font-size: 10px;
+  font-family: sans-serif;
 }
 ::-webkit-scrollbar{
   width: 5px;
@@ -51,7 +58,7 @@ body {
   width: 70px;
   height: 70px;
   position: absolute;
-  left: 47.55%;
+  left: 47.5%;
   top: 0
 }
 .content {
@@ -67,7 +74,7 @@ body {
 }
 /*Title*/
 h1 {
-  margin-top: 210px;
+  margin-top: 280px;
   margin-left: 30px;
   font-family: Vollkorn;
   color: #FBC915;
@@ -84,71 +91,58 @@ h1 {
     width: 28ch;
   }
 }
-.imageflower {
-  margin-right: 30px;
-  margin-top: -640px;
+.tilted {
+  margin-right: 80px;
+  margin-top: -340px;
   float: right;
 }
-.imageflower img{
-  max-width: 275px;
+.tilted img{
+  max-width: 450px;
 }
-.imagephotographer {
-  margin-right: 330px;
-  margin-top: -390px;
-  float: right;
+.text {
+  display: flex;
+  margin-top: 100px;
+  margin: 50px;
+  background-color: #C8E8F5;
+  font-family: sans-serif;
+  font-size: 15px;
 }
-.imagephotographer img{
-  max-width: 275px;
+.two{
+  padding-left: 60px;
 }
-/* information */
-.grid{
-  width: 90%;
-  margin-left: 75px;
-  margin-top: 75px;
-  display: grid;
-  grid-gap: 75px;
-  grid-template-columns: repeat(3, 1fr);
-}
-.grid a{
-  color:#32091B;
-  text-decoration: none;
-}
-.items{
-  background: #327893;
-  color: #32091B;
-  max-height: 355px;
-  max-width: 355px;
-}
-.items > img{
-  max-height: 355px;
-}
-.items:nth-child(odd){
-  text-align: center;
-  padding: 38px;
-  padding-top: 60px;
-  font-size: 30px;
-}
-#bibliography {
-  width: 84%;
-  margin-left: 75px;
-  margin-top: 75px;
-  display: grid;
-  grid-gap: 75px;
-  grid-template-columns: repeat(1fr);
+.side {
   background-color: #327893;
-  font-size: 30px;
-  min-height: 88px;
-  padding:40px;
-  text-align: center;
-  max-width: 1165px;
-  margin-bottom: 75px;
+  float: right;
+  min-width: 260px;
+  display: inline;
+  max-height: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 30px;
 }
-#bibliography a {
-  color:#32091B;
-  text-decoration: none;
+.side img{
+  align-items: center;
+}
+h4 {
+  font-size: 30px;
+}
+.text p {
+  margin-right: 8%;
+  font-size: 30px;
+  text-shadow:
+}
+h3 {
+  font-size: 30px;
+}
+ul {
+  font-size: 30px;
+}
+li {
+  font-size: 30px;
 }
 section {
-  position: relative;
+  position: static;
   width: 100%;
   height: 16vh;
   background: #C8E8F5;
@@ -223,4 +217,8 @@ section .wave.wave4{
   100% {
     background-position-x: -1000px;
   }
+}
+#footer {
+  bottom: 0;
+  width: 100%
 }
